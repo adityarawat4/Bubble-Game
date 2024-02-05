@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:calibri;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(187, 231, 187);
+}
+.pannel{
+    width: 70%;
+    height: 80%;
+    background: white;
+    border-radius: 8px;
+}
+.ptop{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    background: rgb(49, 92, 49);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.box h2{
+    font-size: 17px;
+    
+}
+.box-content{
+    padding: 2px 6px;
+    background: white;
+    border-radius: 3px;
+    color: rgb(8, 103, 8);
+    font-weight: 700;
+}
+.pbtm{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding:  15px 10px;
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(16, 84, 37);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+}
+.bubble:hover{
+    cursor: pointer;
+    background:rgb(30, 127, 61);
+}
